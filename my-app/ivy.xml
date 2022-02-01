@@ -1,7 +1,6 @@
 <ivy-module version="2.0">
-    <info organisation="com.mycompany" module="my-app"/>
-    <dependencies>
-      <dependency org="com.othercompany.app" name="other-app" rev="1.0"/>
-      <dependency org="com.fourthcompany.app" name="fourth-app" rev="[1.0,2.0]"/>
-    </dependencies>
+  <info organisation="com.mycompany" module="my-app"/>
+  <dependencies>
+    <dependency org="com.othercompany.app" name="other-app" rev="1.0"/>
+  </dependencies>
 </ivy-module>
