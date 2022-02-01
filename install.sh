@@ -1,0 +1,9 @@
+cd fourth-app
+mvn install
+cd ../third-app
+mvn install
+cd ../other-app
+mvn install
+cd ../my-app/
+mvn install
+cd ..

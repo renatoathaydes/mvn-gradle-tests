@@ -1,0 +1,15 @@
+plugins {
+    id 'java-library'
+}
+
+group 'com.mycompany.app'
+version '1.0'
+
+repositories {
+    mavenLocal()
+}
+
+dependencies {
+    implementation 'com.othercompany.app:other-app:1.0'
+}
+

@@ -1,0 +1,19 @@
+<ivysettings>
+        <settings defaultResolver="maven2"/>
+        <caches  defaultCacheDir="/Users/renato/.ivy2/cache"/>
+        <property name="local-maven2-dir" value="${user.home}/.m2/repository/" />
+        <resolvers>
+          <filesystem name="maven2" m2compatible="true">
+            <artifact
+                pattern="${local-maven2-dir}/[organisation]/[module]/[revision]/[module]-[revision].[ext]" />
+            <ivy
+                pattern="${local-maven2-dir}/[organisation]/[module]/[revision]/[module]-[revision].pom" />
+            
+          </filesystem>
+          <!-- <ibiblio name="maven2" m2compatible="true"/> -->
+        </resolvers>
+        <modules>
+                <module organisation="jayasoft" name=".*" resolver="maven2"/>
+        </modules>
+</ivysettings>
+
