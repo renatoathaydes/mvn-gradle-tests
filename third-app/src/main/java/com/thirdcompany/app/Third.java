@@ -3,6 +3,7 @@ import com.fourthcompany.app.Fourth;
 
 public class Third {
     public String upperCaseMessage() {
-        return new Fourth().getMessage().toUpperCase();
+        // the dev decided to use the new method from v1.1!
+        return new Fourth().getMessage(true).toUpperCase();
     }
 }
