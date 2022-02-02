@@ -6,7 +6,7 @@
 
   <groupId>com.thirdcompany.app</groupId>
   <artifactId>third-app</artifactId>
-  <version>1.0</version>
+  <version>1.1</version>
 
   <name>third-app</name>
   <!-- FIXME change it to the project's website -->
@@ -22,7 +22,7 @@
     <dependency>
       <groupId>com.fourthcompany.app</groupId>
       <artifactId>fourth-app</artifactId>
-      <version>1.0</version>
+      <version>1.1</version>
     </dependency>
     <dependency>
       <groupId>junit</groupId>
